@@ -1,0 +1,36 @@
+/*desktop first*/
+*{margin:0px;padding: 0px;}
+body{
+   background-image: url('../img/spider-man-marvel-avengers-10921.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+section{
+   display: flex;
+   justify-content: space-between;
+}
+article{
+   width: 400px;
+   height: 400px;
+   background-color: blue;
+   margin: 10px;
+}
+/*tablet*/
+@media (max-width:768px) {
+   section{
+      display: block;
+   }
+   article{
+      width: 100%;
+   }
+   
+}
+/*mobile*/
+@media (max-width:420px) {
+   section{
+      display: block;
+   }
+   article{
+      width: 100%;
+   }
+}

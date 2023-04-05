@@ -1,0 +1,74 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgba(255, 127, 80, 0.512);
+}
+ #petsbook{
+    border: 3px solid black;
+    background-color: rgba(0, 255, 255, 0.769);
+    color: black;
+   
+    
+ }
+nav{ 
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.769);
+    color: black;
+    width:max-content;
+    margin-left: 600px;
+ 
+}
+a{
+  
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.769);
+    color: black;
+}
+h2{
+    margin: 15px 0px 20px 0px;
+    background-color: aqua;
+    border: 3px solid black;
+    color: black;
+text-decoration-line:underline;
+width: max-content;
+
+
+}
+footer{
+    margin: 15px 0px 20px 0px;
+    background-color: aqua;
+    border: 3px solid black;
+    color: black;
+text-decoration-line:underline;
+}
+h1{
+    margin: 15px 0px 20px 0px;
+    background-color: aqua;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+
+
+}
+h3{
+    margin: 15px 0px 20px 0px;
+    background-color: aqua;
+    border: 3px solid black;
+    color: black;
+text-decoration-line:underline;
+width: max-content;
+}
+img{
+    border: 3px solid white;
+    margin-left: 50px;
+}
+audio{
+    border-radius: 50%;
+    
+}
+#fotoportada{
+    margin-left: 650px;
+}
+#tiradefotos{background-color: rgba(244, 165, 96, 0.458)}

@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(233, 150, 122, 0.758);  
+}
+nav{
+    border: 3px double black;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.769);
+}
+
+
+#inicio{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+}
+#formularios{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+table,td,th{
+    border: 3px solid black ;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    td,th{
+        width: 150px;
+    }
+    thead{
+        background-color: white;
+    }
+    tbody{
+        font-family:cursive;
+    }
+    .otroColor{
+        background-color: aqua;
+        color: white;
+    }
+    #titulo{
+font-size: x-large;
+color: white;
+text-align: center;
+font-family: cursive;}
+
+table{margin: auto;}
+h2{
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid white;
+}
+    form{
+        background-color: aqua;
+        padding: 15p;
+        border: 5px solid rgb(255, 255, 255);
+        margin: auto;
+        width: 300px;
+
+    }
+    label{
+        display: block;
+    }
+  
+    div{
+        padding: 8px;
+        margin: 3px 0px;
+        border: 3px solid black; 
+        box-shadow: 4px 5px 5px black;
+    }
