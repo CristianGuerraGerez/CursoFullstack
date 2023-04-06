@@ -1,29 +1,49 @@
 *{
-    background-color:rgba(164, 164, 219, 0.423) ; 
     margin: 0px;
+    padding: 0px;
+    background-color: rgba(185, 122, 122, 0.221);
 }
-h1{
-    margin-top: 250px;
-    margin-bottom: 50px;
-    border: 3px solid black ;
-    background-color: white;
-    padding: 50px;
+.contentItemCard{
+    border: 5px solid grey;
+    height: 400px;
+    text-align: center;
+   overflow: hidden;
 }
-.cuadro{
-width: 100px; 
-height: 100px;
+.itemCa{
+    height: 400px;
+    position: relative;
 }
-#uno{
-    background-color: rgba(255, 0, 0, 0.682);
-position: absolute;
+.tarjetaCa{
+    display: flex;
+    justify-content: center;
 }
-#dos{
-background-color: rgba(210, 105, 30, 0.529);
-position: absolute;
+.flechas{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display:flex;
+    align-items: center; 
+    justify-content: space-between;
+    /*padding: 20px; */
 }
+.izq{
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 60px solid black;
+    
 
-#tres{
-background-color: rgba(0, 255, 255, 0.695);
+}
+.der{
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-left: 60px solid black;
+}
+img{
+    width: 35%;
 
-position: absolute;
 }

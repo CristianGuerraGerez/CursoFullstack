@@ -1,0 +1,56 @@
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.269);
+}
+@keyframes miAnimacion {
+    from{
+        top: 1000px;
+        background-color: red;
+    }
+    to{
+        top: 0px;
+        background-color: var(--my-colorFondo);
+    }
+
+}
+img{
+    width: 45%;
+}
+img:hover{
+    animation-name: imgs;
+    animation-duration: 3s;
+}
+.primerafoto{
+    width: 23%;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes imgs{
+    from{
+        width: 45%;
+    }
+    to{
+        width: 65%;
+    }
+
+    
+}
+/*definimos variable de color*/
+:root{
+    --my-colorFondo:rgba(255, 166, 0, 0.338);
+}
+h1{
+    position: relative;
+    width: 20%;
+    animation-name: miAnimacion;
+    animation-duration: 10s;
+    background-color: var(--my-colorFondo);
+
+}
