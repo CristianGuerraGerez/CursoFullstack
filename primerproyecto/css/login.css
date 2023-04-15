@@ -1,0 +1,82 @@
+body{
+    background-color: blueviolet;
+    color: white;
+    background-image: url(https://developer.android.com/static/images/cluster-illustrations/controllers.svg?hl=es-419);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: 350px;
+    padding: 50px;
+    margin-top: 15px;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 40px;
+    margin-left: 415px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    width: 200px;
+    border-radius: 10px;
+}
+div{
+    padding: 8px;
+    margin-top: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 5px 10px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+}
+#a{
+    color: white;
+    margin-left: 75PX;
+}
+#sub{
+    margin-left: 75px;
+    border-radius: 5px;
+}
+nav{
+    font-size: xx-large;
+    margin-left: 80px;
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.footer span{
+    color: rgba(0,0,0,0.7);
+    font-size: 0.8rem;
+    text-align: center;
+}
+.footer .social-fields{
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.footer .social-field a i{
+    margin: 0 0.5rem;
+    width: 15px;
+}
+.footer .social-field a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.footer .social-field.instagram{
+    background: linear-gradient(45deg,#56a7f2,#034c91);
+}
+.footer .social-field.facebook{
+    background: linear-gradient(to right, #132547, #013da5);
+}
